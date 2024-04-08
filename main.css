@@ -41,7 +41,8 @@ header ul li a:hover {
 }
 
 header .container,
-#lotr .container {
+#lotr .container,
+#lotr .bookcovers {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,6 +56,7 @@ header .container,
     background-size: cover;
     background-position: center;
     border: solid 2px #051800;
+    float: left;
 }
 
 #background h2 {
@@ -96,8 +98,26 @@ header .container,
     filter: none;
 }
 
+.lotr {
+    background-color: rgb(255, 248, 239);
+}
+
 #lotr h2 {
-    margin-left: 16px;
+    padding-top: 8px;
+    height: 50px;
+    width: 300px;
+    color: #0c3801;
+    margin-top: 600px;
+    margin-left: 100px;
+    font-size: 25px;
+    border: solid 4px;
+    border-radius: 8px;
+}
+
+#lotr .container {
+    align-items: flex-start;
+    margin-top: 35px;
+    justify-content: left;
 }
 
 #lotr .container ul {
@@ -105,13 +125,51 @@ header .container,
 }
 
 #lotr .container ul li {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 35px;
+    margin-right: 20px;
     display: inline-flex;
 }
 
 .container p {
+    padding: 20px 20px 20px 20px;
     width: 800px;
+    border: solid 4px #051800;
+    border-radius: 20px;
+    background-color: #fafeff;
+}
+
+.bookcovers img {
+    height: 150px;
+    border: solid 2px #051800;
+    border-radius: 8px;
+}
+
+.bookcovers ul li {
+    display: inline-flex;
+    margin-left: 45px;
     position: relative;
-    right: 500px;
+    bottom: 60px;
+}
+
+#lotr .bookcovers {
+    justify-content: left;
+}
+
+#lotr .bookcovers a {
+    padding: 6px 6px 6px 6px;
+    margin-left: 475px;
+    border: solid 2px #051800;
+    background-color: #051800;
+    color: #fafeff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+    position: relative;
+    bottom: 30px;
+}
+
+#lotr .bookcovers a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    background-color: #1c8d00;
 }
