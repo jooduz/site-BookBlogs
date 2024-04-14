@@ -44,7 +44,8 @@ header .container,
 #lotr .container,
 #lotr .bookcovers,
 #hpotter .container,
-#percyj .container {
+#percyj .container,
+#about-contact .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,6 +125,11 @@ header .container,
     justify-content: left;
 }
 
+#lotr .container p {
+    margin-right: 15px;
+    width: 550px;
+}
+
 #lotr .container ul {
     width: 700px;
 }
@@ -176,4 +182,195 @@ header .container,
     text-decoration: underline;
     transform: scale(1.2);
     background-color: #1c8d00;
+}
+
+.container img {
+    height: 150px;
+    border: solid 2px #051800;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.hpotter {
+    background-color: rgb(255, 248, 239);
+}
+
+#hpotter h2 {
+    position: relative;
+    top: 20px;
+    padding-top: 8px;
+    padding-left: 10px;
+    height: 50px;
+    width: 250px;
+    color: #0c3801;
+    margin-left: 100px;
+    font-size: 25px;
+    border: solid 4px;
+    border-radius: 8px;
+}
+
+#hpotter .container {
+    justify-content: flex-start;
+}
+
+#hpotter .container p {
+position: relative;
+left: 200px;
+width: 550px;
+margin-right: 15px;
+}
+
+#hpotter .container a {
+    padding: 6px 6px 6px 6px;
+    margin-top: 15px;
+    margin-left: 475px;
+    border: solid 2px #051800;
+    background-color: #051800;
+    color: #fafeff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+    position: relative;
+    bottom: 30px;
+    left: 450px;
+}
+
+#hpotter .container a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    background-color: #1c8d00;
+}
+
+.percyj {
+    background-color: rgb(255, 248, 239);
+}
+
+#percyj h2 {
+    position: relative;
+    top: 20px;
+    padding-top: 8px;
+    padding-left: 10px;
+    height: 50px;
+    width: 275px;
+    color: #0c3801;
+    margin-left: 100px;
+    font-size: 25px;
+    border: solid 4px;
+    border-radius: 8px;
+}
+
+#percyj .container {
+    justify-content: flex-start;
+}
+
+#percyj .container p {
+position: relative;
+left: 200px;
+width: 550px;
+margin-right: 15px;
+}
+
+#percyj .container a {
+    padding: 6px 6px 6px 6px;
+    margin-top: 15px;
+    margin-left: 475px;
+    border: solid 2px #051800;
+    background-color: #051800;
+    color: #fafeff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+    position: relative;
+    bottom: 30px;
+    left: 450px;
+}
+
+#percyj .container a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    background-color: #1c8d00;
+}
+
+#about-contact {
+    background-color: rgb(255, 248, 239);
+}
+
+#about-contact .container {
+    justify-content: flex-start;
+}
+
+#about-contact .container .about {
+    margin-right: 30px;
+}
+
+#about-contact .container .about h2 {
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: solid 4px;
+    border-radius: 8px;
+    width: 140px;
+}
+
+#about-contact .container .about p {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 600px;
+}
+
+#about-contact .container .contact {
+    margin-right: 30px;
+}
+
+#about-contact .container .contact h2 {
+    margin-right: 10px;
+    padding: 8px;
+    position: relative;
+    bottom: 120px;
+    border: solid 4px;
+    border-radius: 8px;
+}
+
+#about-contact .container .contact .social-media {
+    margin-left: 30px;
+}
+
+#about-contact .container .contact .social-media ul li {
+    display: inline;
+}
+
+#about-contact .container .contact .social-media ul li img {
+    border: none;
+    transition: transform 0.2s;
+    height: 50px;
+}
+
+#about-contact .container .contact .social-media ul li img:hover {
+    transform: scale(1.2);
+}
+
+#about-contact .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#about-contact .contact form {
+    position: relative;
+    top: 30px;
+}
+
+#about-contact .contact form input,
+#about-contact .contact form textarea,
+#about-contact .contact form button {
+    width: 300px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
 }
